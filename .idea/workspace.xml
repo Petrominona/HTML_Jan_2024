@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework1">
-      <change afterPath="$PROJECT_DIR$/lesson2/Homework2/HW2_1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/Homework2/HW2_1.html" afterDir="false" />
+    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework2,(creating five bloks and adding some fonts)">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/Homework2/HW2_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/Homework2/HW2_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2bgN8KunLZBKu9HybkhTSAdIDg9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +71,7 @@
       <updated>1706632608562</updated>
       <workItem from="1706632609667" duration="9333000" />
       <workItem from="1706724145225" duration="10181000" />
-      <workItem from="1706975699311" duration="5176000" />
+      <workItem from="1706975699311" duration="8058000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1706733439091</created>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706733811519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework2,(creating five bloks and adding some fonts)">
+      <created>1706981328190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706981328190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework1" />
+    <MESSAGE value="Homework2,(creating five bloks and adding some fonts)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2,(creating five bloks and adding some fonts)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
