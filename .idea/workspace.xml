@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework2,(creating five bloks and adding some fonts)">
-      <change afterPath="$PROJECT_DIR$/lesson2/Homework2/HW2_3.html" afterDir="false" />
+    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework2,(creating blocks-widgets)">
+      <change afterPath="$PROJECT_DIR$/lesson3/HW3_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/lesson3_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/OnlyMe/IdeaProjects/HTML_Jan_2024/lesson 1",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OnlyMe/IdeaProjects/HTML_Jan_2024/lesson 1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\OnlyMe\IdeaProjects\HTML_Jan_2024\lesson 1" />
@@ -69,7 +70,8 @@
       <updated>1706632608562</updated>
       <workItem from="1706632609667" duration="9333000" />
       <workItem from="1706724145225" duration="10181000" />
-      <workItem from="1706975699311" duration="14268000" />
+      <workItem from="1706975699311" duration="14535000" />
+      <workItem from="1707324406002" duration="2552000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1706733439091</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706984167845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework2,(creating blocks-widgets)">
+      <created>1706990648638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706990648638</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +131,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2,(creating five bloks and adding some fonts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework2,(creating five bloks and adding some fonts)" />
+    <MESSAGE value="Homework2,(creating blocks-widgets)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2,(creating blocks-widgets)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
