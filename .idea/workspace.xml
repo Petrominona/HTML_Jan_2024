@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework2,(creating blocks-widgets)">
-      <change afterPath="$PROJECT_DIR$/lesson3/HW3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/lesson3_1.html" afterDir="false" />
+    <list default="true" id="1e8c025d-d1d6-43de-b421-686274a5fbee" name="Changes" comment="Homework3_1&#10;creating 2-Section Title">
+      <change afterPath="$PROJECT_DIR$/lesson3/HW3_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/lesson3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/lesson3_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,10 @@
       <workItem from="1706632609667" duration="9333000" />
       <workItem from="1706724145225" duration="10181000" />
       <workItem from="1706975699311" duration="14535000" />
-      <workItem from="1707324406002" duration="2552000" />
+      <workItem from="1707324406002" duration="5929000" />
+      <workItem from="1707335111720" duration="593000" />
+      <workItem from="1707501800443" duration="594000" />
+      <workItem from="1707847026929" duration="9691000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1706733439091</created>
@@ -122,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706990648638</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework3_1&#10;creating 2-Section Title">
+      <created>1707327286106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707327286106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +142,8 @@
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2,(creating five bloks and adding some fonts)" />
     <MESSAGE value="Homework2,(creating blocks-widgets)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework2,(creating blocks-widgets)" />
+    <MESSAGE value="Homework3_1&#10;creating 2-Section Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework3_1&#10;creating 2-Section Title" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

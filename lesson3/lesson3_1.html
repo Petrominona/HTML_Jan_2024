@@ -15,32 +15,83 @@
         section {
             height: 100vh;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div {
+            margin: 100px;
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
         section a {
+            font-size: 2em;
+            /*padding: 50px;*/
             text-decoration: none;
+            color: black;
+
         }
 
-        #pink {
-            background-color: pink;
+        footer {
+            margin: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
 
         #yellow {
-            background-color: yellow;
+            background-color: #737307;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #blue {
+            background-color: #4e4eb4;
+        }
+
+        #green {
+            background-color: green;
         }
     </style>
 </head>
 <body>
 <section id="yellow">
-    <a href="#pink">Click</a>
-</section>
-<section id="pink">
-    <a href="#yellow">Click</a>
-</section>
+    <div></div>
+    <div><h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti dolorum eius, fugiat ipsum laborum
+            molestias natus suscipit. Ab blanditiis distinctio dolorem earum facilis id, laudantium mollitia officiis
+            possimus quas recusandae saepe sapiente soluta sunt tempora? Accusamus culpa cumque est mollitia odit
+            officia
+            repellat rerum, sed. Accusamus aliquam quaerat ullam.</p></div>
+    <a href="#blue">&#8659;</a>
 
+</section>
+<section id="blue">
+    <a href="#yellow">&#8657;</a>
+    <footer class="in_midle"><h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti dolorum eius, fugiat ipsum laborum
+            molestias natus suscipit. Ab blanditiis distinctio dolorem earum facilis id, laudantium mollitia officiis
+            possimus quas recusandae saepe sapiente soluta sunt tempora? Accusamus culpa cumque est mollitia odit
+            officia
+            repellat rerum, sed. Accusamus aliquam quaerat ullam.</p></footer>
+    <a href="#green">&#8659;</a>
+</section>
+<section id="green">
 
+    <a href="#blue">&#8657;</a>
+    <div><h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti dolorum eius, fugiat ipsum laborum
+            molestias natus suscipit. Ab blanditiis distinctio dolorem earum facilis id, laudantium mollitia officiis
+            possimus quas recusandae saepe sapiente soluta sunt tempora? Accusamus culpa cumque est mollitia odit
+            officia
+            repellat rerum, sed. Accusamus aliquam quaerat ullam.</p></div>
+    <div></div>
+</section>
 
 </body>
 </html>
