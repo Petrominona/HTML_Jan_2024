@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+        label {
+            display: block;
+            margin: 10px;
+        }
+
+        .paragraf {
+            height: 110px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /*textarea {*/
+        /*    width: 200px;*/
+        /*    height: 50px;*/
+        /*    resize: none;*/
+        /*}   */
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 400px;
+            height: 50px;
+            /*padding: 10px;*/
+            font-size: 25px;
+
+            border: 3px solid #39a494;
+            border-radius: 4px;
+
+        }
+
+        input[type="text"]::placeholder {
+            /*margin: 10px;*/
+            /*font-size: 30px;*/
+
+        }
+
+        input[type="password"] {
+            width: 400px;
+            height: 50px;
+            /*padding: 10px;*/
+            font-size: 25px;
+
+            border: 3px solid #39a494;
+            border-radius: 4px;
+
+        }
+
+        input[type="submit"] {
+            width: 405px;
+            height: 50px;
+            padding: 10px;
+            font-size: 30px;
+            color: #D9D9D9;
+            background-color: #1f80f1;
+            border-radius: 10px;
+            border: none;
+
+        }
+
+        p {
+            color: #878484;
+            font-size: 25px;
+
+        }
+
+
+        .image {
+            height: 110px;
+        }
+
+        .img {
+            width: 20px;
+            height: 20px;
+        }
+
+        a {
+            font-family: "Arial Black", serif;
+            font-size: 20px;
+            color: #4065a8;
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div class="paragraf"><img class="image" src="Instagram_logo.svg.png" alt="#"></div>
+
+
+<form>
+
+    <label for="name"></label>
+    <input type="text" name="username" id="name" placeholder="номер телефону,ім'я користувача або email" required>
+
+
+    <label for="password"></label>
+    <input type="password" name="password" id="password" placeholder="пароль" required>
+    <br>
+    <input type="submit" value="Увійти">
+
+    <p><b>АБО</b></p>
+
+    <div class="navbar">
+        <img class="img" src="Facebook.png" alt="#">
+        <a href="#">Увійти через Facebook</a>
+    </div>
+    <br>
+    <div>
+        <a href="#">Забули пароль?</a>
+
+    </div>
+
+
+</form>
+
+
+</body>
+</html>
