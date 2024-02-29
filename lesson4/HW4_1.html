@@ -6,6 +6,48 @@
 
 
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            width: 30vw;
+            height: 70vh;
+            margin-top: 50px;
+            /*display: flex;*/
+            /*flex-direction: column;*/
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            border: 3px solid rgba(128, 128, 128, 0.72);
+            border-radius: 10px;
+        }
+
+        .foot {
+            width: 30vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid rgba(128, 128, 128, 0.65);
+            border-radius: 5px;
+            margin-top: 20px;
+
+        }
+
+        .ffoot {
+            font-family: Arial,serif;
+        }
+
+        .regi {
+            font-family: "Arial Black",serif;
+            color: #1f80f1;
+            margin-left: 5px;
+        }
+
         label {
             display: block;
             margin: 10px;
@@ -37,7 +79,7 @@
             /*padding: 10px;*/
             font-size: 25px;
 
-            border: 3px solid #39a494;
+            border: 3px solid rgba(160, 176, 201, 0.85);
             border-radius: 4px;
 
         }
@@ -54,7 +96,7 @@
             /*padding: 10px;*/
             font-size: 25px;
 
-            border: 3px solid #39a494;
+            border: 3px solid rgba(160, 176, 201, 0.73);
             border-radius: 4px;
 
         }
@@ -71,9 +113,9 @@
 
         }
 
-        p {
+        .or {
             color: #878484;
-            font-size: 25px;
+            font-size: 20px;
 
         }
 
@@ -87,7 +129,7 @@
             height: 20px;
         }
 
-        a {
+        .forgpass {
             font-family: "Arial Black", serif;
             font-size: 20px;
             color: #4065a8;
@@ -99,35 +141,36 @@
 
 
 <body>
-<div class="paragraf"><img class="image" src="Instagram_logo.svg.png" alt="#"></div>
+<div class="main">
+    <div class="paragraf"><img class="image" src="Instagram_logo.svg.png" alt="#"></div>
 
+    <form>
 
-<form>
+        <label for="name"></label>
+        <input type="text" name="username" id="name" placeholder="номер телефону,ім'я користувача або email" required>
 
-    <label for="name"></label>
-    <input type="text" name="username" id="name" placeholder="номер телефону,ім'я користувача або email" required>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="пароль" required>
+        <br>
+        <input type="submit" value="Увійти">
 
+        <p class="or"><b>АБО</b></p>
 
-    <label for="password"></label>
-    <input type="password" name="password" id="password" placeholder="пароль" required>
-    <br>
-    <input type="submit" value="Увійти">
+        <div class="navbar">
+            <img class="img" src="Facebook.png" alt="#">
+            <a href="#" class="forgpass">Увійти через Facebook</a>
+        </div>
+        <br>
+        <div>
+            <a href="#" class="forgpass">Забули пароль?</a>
 
-    <p><b>АБО</b></p>
+        </div>
+    </form>
+</div>
+<div class="foot">
+    <p class="ffoot"><b>Не має облікового запису?</b></p>
 
-    <div class="navbar">
-        <img class="img" src="Facebook.png" alt="#">
-        <a href="#">Увійти через Facebook</a>
-    </div>
-    <br>
-    <div>
-        <a href="#">Забули пароль?</a>
-
-    </div>
-
-
-</form>
-
-
+    <a href="#" class="regi">Зареєструватися</a>
+</div>
 </body>
 </html>
